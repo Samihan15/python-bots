@@ -2,7 +2,7 @@ import os
 import time
 from selenium import webdriver
 
-email = os.envoron.get("EMAIL")
+email = os.environ.get("EMAIL")
 password = os.environ.get("EMAIL_PASSWORD")
 recipient_email = "recipient@example.com"
 email_subject = "Scheduled Email"
